@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e3e1ff;
+  color: #444;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 80px auto;
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px rgba(28, 6, 49, 0.1);
+  background: white;
+}
+
+.nav-wrapper {
+  background: white;
+}
+
+.nav-container {
+  width: 960px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.error {
+  color: #ff3f80;
+  font-size: 14px;
+}
+button {
+  text-decoration: none;
+  background: #5ae4ca;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+  &:hover {
+    background: #4cdac0;
+  }
+}
+
+.chat-window {
+  background: #fafafa;
+  padding: 30px 20px;
+}
+.single {
+  margin: 18px 0;
+}
+.created-at {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.name {
+  font-weight: bold;
+  margin-right: 6px;
+}
+.messages {
+  max-height: 400px;
+  overflow: auto;
+  transition: all 0.3s ease-in;
+}
+
+form.chat-form {
+  margin: 10px;
+}
+textarea {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  font-family: inherit;
+  outline: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+p.links-text {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.welcome {
+  text-align: center;
+  padding: 20px 0;
+}
+/* form styles */
+.welcome form {
+  width: 300px;
+  margin: 20px auto;
+}
+.welcome label {
+  display: block;
+  margin: 20px 0 10px;
+}
+.welcome input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  outline: none;
+  color: #999;
+  margin: 10px auto;
+}
+.welcome span {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.welcome button {
+  margin: 20px auto;
+}
